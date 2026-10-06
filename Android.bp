@@ -19,7 +19,7 @@ cc_library_headers {
 }
 
 cc_library_headers {
-    name: "qti_nfc_kernel_headers",
+    name: "qti_nfc_kernel_headers_generic",
     defaults: ["generated_kernel_header_defaults"],
 }
 
@@ -29,7 +29,7 @@ cc_library_headers {
 }
 
 cc_library_headers {
-    name: "smmu_proxy_uapi_header",
+    name: "smmu_proxy_uapi_header_generic",
     defaults: ["generated_kernel_header_defaults"],
 }
 
